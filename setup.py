@@ -5,12 +5,12 @@ from setuptools import find_packages, setup
 
 # Base requirements for all platforms
 install_requires = [
-  "aiohttp==3.10.11",
+  "aiohttp==3.12.14",
   "aiohttp_cors==0.7.0",
   "aiofiles==24.1.0",
   "grpcio==1.68.0",
   "grpcio-tools==1.68.0",
-  "Jinja2==3.1.4",
+  "Jinja2==3.1.6",
   "netifaces==0.11.0",
   "numpy==2.0.0",
   "nuitka==2.5.1",
@@ -18,14 +18,14 @@ install_requires = [
   "opencv-python==4.10.0.84",
   "pillow==10.4.0",
   "prometheus-client==0.20.0",
-  "protobuf==5.28.1",
+  "protobuf==5.29.5",
   "psutil==6.0.0",
   "pydantic==2.9.2",
-  "requests==2.32.3",
+  "requests==2.32.4",
   "rich==13.7.1",
   "tenacity==9.0.0",
   "tqdm==4.66.4",
-  "transformers==4.46.3",
+  "transformers==4.52.1",
   "uuid==1.30",
   "tinygrad @ git+https://github.com/tinygrad/tinygrad.git@3b26e51fcebfc6576f4e0f99693e6f1406d61d79",
 ]
